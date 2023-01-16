@@ -6,6 +6,8 @@ Let's developing~. Smart Factory. More convinience work~. How about this. Thank 
 
 참조글, <a href="https://tt2t2am.tistory.com/14">https://tt2t2am.tistory.com/14</a>
 
+웹으로 보기, <a href="https://infott2t.github.io/smartfactory-app-design">https://infott2t.github.io/smartfactory-app-design</a>
+
 좋은 하루되세요.
 
 
