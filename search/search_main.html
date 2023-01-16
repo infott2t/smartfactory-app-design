@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>스마트 팩토리</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <style>
+    .navbar-brand {
+      font-size: 1rem;
+    }
+  .navcustom{
+        background-color: #5864bf;
+
+   }
+  .cw{
+    color: white;
+  }
+  .color-co{
+    background-color: #35067c;
+    color: white;
+  }
+  .navbutton {
+    background-color: #35067c;
+    color: white;
+  }
+
+    .background-color{
+      background-color:white;
+      color: black;
+    }
+
+  .fs10 {
+    font-size: 10px;
+  }
+     .body-text{
+       padding-top: 78px;
+     }
+     .nav-top{
+       padding-top: 0px;
+       padding-bottom: 0px;
+     }
+     .pb-200{
+       padding-bottom: 200px;
+     }
+  </style>
+
+</head>
+<body  class="background-color">
+
+
+
+<!--내용적기 -->
+
+<nav class="navbar navbar-expand-lg  fixed-top nav-top">
+  <div class="container-fluid navcustom">
+    <a class="navbar-brand cw" href="../welcome.html">스마트팩토리</a>
+    <form class="d-flex" role="search">
+      <input class="me-2 " type="search" placeholder="Search" aria-label="Search">
+      <a class="btn navbutton" type="submit">찾기</a>
+    </form>
+
+  </div>
+</nav>
+<div class="container body-text">
+
+
+ <div class="row pb-2">
+
+   <div class="col d-flex ">
+     <h5> <a href="javascript:window.history.back();" style="color:black;"><i class="bi bi-chevron-left"></i></a> &nbsp;&nbsp;✋할 일을 찾아볼까요.</h5>
+   </div>
+ </div>
+  <div class="accordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          검색하기
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+            <label class="btn btn-sm btn-outline-success" for="btncheck1">앉아서 일하기</label>
+
+            <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+            <label class="btn btn-sm  btn-outline-success" for="btncheck2">서서 일하기</label>
+
+            <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+            <label class="btn btn-sm  btn-outline-success" for="btncheck3">운반하기</label>
+            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+            <label class="btn btn-sm  btn-outline-success" for="btncheck4">기계조작하기</label>
+          </div>
+          <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+            <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+            <label class="btn btn-sm btn-outline-success" for="btncheck5">악세사리</label>
+
+            <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+            <label class="btn btn-sm  btn-outline-success" for="btncheck6">음식</label>
+
+            <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+            <label class="btn btn-sm  btn-outline-success" for="btncheck7">김치</label>
+            <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
+            <label class="btn btn-sm  btn-outline-success" for="btncheck8">요리하기</label>
+          </div>
+          <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+            <input type="checkbox" class="btn-check" id="btncheck9" autocomplete="off">
+            <label class="btn btn-sm btn-outline-success" for="btncheck9">안내하기</label>
+
+            <input type="checkbox" class="btn-check" id="btncheck10" autocomplete="off">
+            <label class="btn btn-sm  btn-outline-success" for="btncheck10">포장</label>
+
+            <input type="checkbox" class="btn-check" id="btncheck11" autocomplete="off">
+            <label class="btn btn-sm  btn-outline-success" for="btncheck11">지게차</label>
+          </div>
+          <a class="btn color-co" href="#" role="button">검색</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr/>
+  <p>? 건의 일을 찾았습니다.</p>
+  <hr/>
+  <br/>
+  <h5> A 푸드. 음식. 김치를 만들어보세요.</h5>
+  <br />
+  <div class="row  justify-content-center">
+    <div class="col d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+          <h5 class="card-title">A 푸드</h5>
+          <p class="card-text">배추 김치 만들기</p>
+          <a href="../plan/kimchi.html" class="btn btn-primary">보기</a>
+        </div>
+        <div class="card-footer">
+          음식, 요리 | 2021년 6월 21일 ~
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">A 푸드</h5>
+          <p class="card-text">제품 운반, 적재하기</p>
+          <a href="#" class="btn btn-primary disabled">보기</a>
+        </div>
+        <div class="card-footer">
+          음식, 창고 | 2021년 6월 21일 ~
+        </div>
+      </div>
+    </div>
+
+    <div class="col  d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+          <h5 class="card-title">A 푸드</h5>
+          <p class="card-text">제품 포장하기</p>
+          <a href="#" class="btn btn-primary disabled">보기</a>
+        </div>
+
+
+        <div class="card-footer">
+          음식, 포장 | 2021년 6월 21일 ~
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <br />
+  <hr />
+  <br />
+  <h5> B 푸드. 반조리 음식. 이 일은 어떤가요.</h5>
+  <br />
+  <div class="row">
+    <div class="col  d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">B 푸드</h5>
+          <p class="card-text">음식 재료 다듬기</p>
+          <a href="#" class="btn btn-primary disabled">보기</a>
+        </div>
+        <div class="card-footer">
+          음식, 요리 | 2021년 6월 21일 ~
+        </div>
+      </div>
+    </div>
+    <div class="col  d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+          <h5 class="card-title">B 푸드</h5>
+          <p class="card-text">음식 재료 만들기</p>
+          <a href="#" class="btn btn-primary disabled">보기</a>
+        </div>
+        <div class="card-footer">
+          음식, 요리 | 2021년 6월 21일 ~
+        </div>
+      </div>
+    </div>
+    <div class="col  d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+          <h5 class="card-title">B 푸드</h5>
+          <p class="card-text">제품 포장하기</p>
+          <a href="#" class="btn btn-primary disabled">보기</a>
+        </div>
+        <div class="card-footer">
+          음식, 포장 | 2021년 6월 21일 ~
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <br/>
+  <br/>
+  <br/>
+</div>
+
+<footer class="footer mt-auto navcustom fixed-bottom">
+  <div class="container">
+    <ul class="nav nav-justified">
+      <li class="nav-item">
+        <a class="nav-link icon-color cw" aria-current="page" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link icon-color cw" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+            <path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"/>
+            <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link icon-color cw" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link icon-color cw" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+<script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>스마트 팩토리</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <style>
     .navbar-brand {
       font-size: 1rem;
@@ -26,8 +27,8 @@
   }
 
     .background-color{
-      background-color: #6912de;
-      color: white;
+      background-color:white;
+      color: black;
     }
 
   .fs10 {
@@ -54,10 +55,10 @@
 
 <nav class="navbar navbar-expand-lg  fixed-top nav-top">
   <div class="container-fluid navcustom">
-    <a class="navbar-brand cw" href="#">스마트팩토리</a>
+    <a class="navbar-brand cw" href="welcome.html">스마트팩토리</a>
     <form class="d-flex" role="search">
       <input class="me-2 " type="search" placeholder="Search" aria-label="Search">
-      <a class="btn navbutton" type="submit">찾기</a>
+      <a class="btn navbutton" href="search/search_main.html">찾기</a>
     </form>
 
   </div>
@@ -66,22 +67,49 @@
  <div class="row">
    <div class="col-md-12">
      <h1>스마트팩토리</h1>
-     <p>이렇게 개발해보세요. 일하기가 더 좋아지겠죠. 감사합니다.</p>
+     <p>오늘, 일 하시는 것은 어떨까요.</p>
+     <p>좋은 하루되세요.</p>
+     <p>[아이디] 님.</p>
    </div>
  </div>
-  <div class="pb-200"></div>
+
+ <div class="row pb-2">
+
+   <div class="col d-flex justify-content-center">
+     <h5> <a href="javascript:window.history.back();" style="color:black;"><i class="bi bi-chevron-left"></i></a> &nbsp;&nbsp;✋할 일을 찾아볼까요.</h5>
+   </div>
+ </div>
   <div class="row pb-2">
-    <div class="col"><h5 class="card-title">로그인</h5></div>
+    <div class="col d-flex justify-content-center">
+      <a href="#" class="btn btn-success color-co ps-2">서서 일하기</a>&nbsp;
+      <a href="#" class="btn btn-success color-co">음식 만들기</a>&nbsp;
+      <a href="#" class="btn btn-success color-co">김치</a>
+    </div>
   </div>
-  <div class="row">
-    <a href="#" class=" btn color-co">구글로 로그인하기</a>
-  </div>
-  <div class="row">
-    <div class="col"><p></p></div>
-  </div>
-  <div class="row">
-    <a href="welcome.html" class="btn color-co">그냥 들어가기</a>
-  </div>
+  <hr/>
+  <p>1건의 일을 찾았습니다.</p>
+  <hr/>
+  <br/>
+  <h5> A 푸드. 음식. 김치를 만들어보세요.</h5>
+  <br />
+  <div class="row  justify-content-center">
+    <div class="col d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+          <h5 class="card-title">A 푸드</h5>
+          <p class="card-text">배추 김치 만들기</p>
+          <a href="plan/kimchi.html" class="btn btn-primary">보기</a>
+        </div>
+        <div class="card-footer">
+          음식, 요리 | 2021년 6월 21일 ~
+        </div>
+      </div>
+    </div>
+    </div>
+  <br/>
+  <br/>
+  <br/>
 </div>
 
 <footer class="footer mt-auto navcustom fixed-bottom">
@@ -117,6 +145,7 @@
           </svg>
         </a>
       </li>
+    </ul>
   </div>
 </footer>
 
