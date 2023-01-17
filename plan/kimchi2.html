@@ -48,6 +48,7 @@
      .p-0{
        padding: 0px;
      }
+
      .border-none{
          border: none
      }
@@ -76,7 +77,7 @@
         <i class="bi bi-star-fill text-success"></i>
         <i class="bi bi-star-fill text-success"></i>
         <i class="bi bi-star-fill text-success"></i>
-        <i class="bi bi-star"></i> 4.0 - <span id="heartNum">352</span>명
+        <i class="bi bi-star"></i> 4.0 - 좋아요 <span id="heartNum">352</span>명
         <br />
 
         <div class="container p-0">
@@ -91,13 +92,91 @@
           </div>
         </div>
 
-        <ul class="list-group" style="padding-bottom:10px;">
+        <ul class="list-group" >
           <li class="list-group-item border-none">
             <h5>&#x270B; 어떻게 일 하나요?</h5>
           </li>
           <li class="list-group-item border-none">
-            <p>김치를 만드는 일입니다. 안전하고 청결하게 일합시다.  <a href="kimchi2.html" class="btn btn-success btn-sm">알아보기</a></p>
+            <p>김치를 만드는 일입니다. 안전하고 청결하게 일합시다.</p>
           </li>
+          </ul>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flowOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                배추를 잘 씻어줌니다.
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="flowOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                배추를 깨끗하게 손질하는 작업입니다. 배추의 겉부분의 이물질을 제거하고, 소금에 절이기 전에 물에 씻어 줌니다.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flowTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                배추를 소금에 절입니다.
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="flowTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                김치를 만들기 위해서는 소금에 절이는 작업이 필요합니다. 3~4시간 정도 절입니다. 일정량의 소금을 배추 안에 흩뿌려주는 작업입니다.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flowThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                배추에 양념을 묻혀줌니다.
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="flowThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                소금에 절인 배추에, 양념을 묻혀줌니다. 매운김치, 일반김치. 각각 양념이 다른데, 해당 양념을 발라주면 됨니다. 양념장도 만들어요.
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr/>
+        <ul class="list-group" style="padding-bottom:10px; border:none;">
+          <li class="list-group-item border-none">
+            <a href="simulation.html" class="btn btn-success"><h5 style="margin-bottom:0px;">&#x270B; 가상체험 해보세요~. </h5></a>
+          </li>
+          <li class="list-group-item border-none">
+            입장하기 -> 손씻기 -> 야채손질, 야채세척, 배추절이기, 양념만들기, 양념바르기. 이렇게 작업합니다.
+          </li>
+          <li class="list-group-item border-none">
+            입장 후에 QR코드를 찍어주세요.
+          </li>
+          <li class="list-group-item border-none">
+            <div class="progress-stacked" style="height:40px;">
+              <div class="progress" role="progressbar" aria-label="Segment one 30px high"  aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%; height:40px;">
+                <div class="progress-bar" ><button type="button" class="btn p-0" style="font-size:20px;background-color:#800080;color:white;" data-bs-toggle="popover" data-bs-title="이동 시간: 10분" data-bs-content="지정된 자리로 이동합니다.">이동</button></div>
+              </div>
+              <div class="progress" role="progressbar" aria-label="Segment two 30px high" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 15%; height:40px;">
+                <div class="progress-bar bg-success" ><button type="button" class="btn p-0" style="font-size:20px;color:white;" data-bs-toggle="popover" data-bs-title="준비 시간: 10분~15분" data-bs-content="작업 전 준비를 합니다. 안전 점검, 물품 점검.">준비</button></div>
+              </div>
+              <div class="progress" role="progressbar" aria-label="Segment three 30px high" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:40%; height:40px;">
+                <div class="progress-bar" style="font-size:25px;color:white;"><button type="button" class="btn p-0" style="font-size:20px;color:white;background-color:#000099;" data-bs-toggle="popover" data-bs-title="작업 시간: 약1시간 30분" data-bs-content="작업시간입니다. 작업 안내에 따라, 작업해주세요.">작업</button></div>
+              </div>
+              <div class="progress" role="progressbar" aria-label="Segment four 30px high" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 15%; height:40px;">
+                <div class="progress-bar bg-success" style="font-size:25px;"><button type="button" class="btn p-0" style="font-size:20px;color:white;" data-bs-toggle="popover" data-bs-title="청소 시간: 10분~15분" data-bs-content="청소시간입니다. 청소를 합니다.">청소</button></div>
+              </div>
+              <div class="progress" role="progressbar" aria-label="Segment five 30px high" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 15%; height:40px;">
+                <div class="progress-bar" style="font-size:25px;color:white;"><button type="button" class="btn p-0" style="font-size:20px;color:white;background-color:#800080" data-bs-toggle="popover"  data-bs-title="종료 시간: 10분" data-bs-content="종료시간입니다. 일의 마무리를 해줌니다.">종료</button></div>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item border-none">
+            야채손질 시작할 때에 안내에 따라 작업해주세요.
+          </li>
+          <li class="list-group-item border-none">
+            양념 제작할 때에 안내에 따라 작업해주세요.
+          </li>
+        </ul>
+        <hr/>
+        <ul style="margin-top:20px;">
           <li class="list-group-item border-none">
             <h5><i class="bi bi-calendar-check"></i> 예약하기 타임시트</h5>
           </li>
@@ -307,10 +386,14 @@
       </li>
   </div>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
 <script src="../js/jquery-3.6.3.min.js"></script>
 <script>
+
+  const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+  const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
   $("#heart_click").on("click", function () {
 
     if ($("#heart").hasClass("bi-heart")) {
