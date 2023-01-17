@@ -58,6 +58,10 @@
        padding-left:0px;
 
      }
+     .card-active{
+       background-color: #35067c;
+       color: white;
+     }
   </style>
 
 </head>
@@ -144,37 +148,201 @@
             <h5 style="margin-bottom:0px;">&#x270B; 가상체험 해보세요~. </h5>
           </li>
         </ul>
-        <div class="card">
-          <div class="card-header">입장하기</div>
-          <div class="card-body">
-            <div class="card-title"></div>
-            <p class="card-text">입장한 후에 QR코드를 찍어주세요.</p>
-            <a href="#" class="btn btn-success">QR코드 찍기</a>
+        <div class="accordion">
+          <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                    &#x1F4C8; 나의 포지션: 야채 다듬기 A1
+                </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <img src="../img/kimchi_map0_A1.png" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                          <h5>나의 포지션, 야채 새척하기 A1</h5>
+                          <ul style="list-style: none;">
+                            <li><b>A1,2 :  야채 새척 장소</b></li>
+                            <li>B1,2 :  야채 다듬기 장소</li>
+                            <li>C1,2 :  양념 만드는 장소</li>
+                            <li>D1,2 :  양념 묻히는 장소</li>
+                          </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+          <div class="accordian-item">
+            <h2 class="accordion-header" id="period1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                &#x1F4C8; 이동하기 10분 소요
+              </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="period1" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="padding:2px;">
+                <div class="container" style="padding:2px;">
+                  <div class="card">
+                    <div class="card-header" >입장하기  [ 완료됨 ]</div>
+                    <div class="card-body d-flex justify-content-around">
+                      <!--<div class="card-title">입장한 후에 QR코드를 찍어주세요.</div> -->
+                      <div class="card-title">입장시간: 2023년 1월 17일 10시 01분 05초</div>
+                      <p class="card-text"></p> <a href="#" class="btn btn-success">QR코드 찍기</a>
+                    </div>
+                  </div>
+                    <div class="card card-active">
+                      <div class="card-header">옷 갈아입기</div>
+                      <div class="card-body d-flex justify-content-around">
+                        <div class="card-title">옷을 지정된 사물함에 넣어두고, 옷을 갈아입어주세요.</div>
+                        <p class="card-text"></p> <a href="#" class="btn btn-success">안내화면</a>
+                      </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">손 씻기</div>
+                    <div class="card-body d-flex justify-content-around">
+                      <div class="card-title">손을 씻고, 작업전 청결에 신경을 써주세요.</div>
+                      <p class="card-text"></p> <a href="#" class="btn btn-success">안내화면</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">작업 장소로 이동하기</div>
+                    <div class="card-body d-flex justify-content-around">
+                      <div class="card-title">작업 장소로 이동해주세요.</div>
+                      <p class="card-text"></p> <a href="#" class="btn btn-success">안내화면</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordian-item">
+            <h2 class="accordion-header" id="period2">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                &#x1F4C8; 준비하기 10분~ 15분 소요
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="period2" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="padding:0px;">
+                <div class="container" style="padding:0px;">
+                  <div class="card">
+                    <div class="card-header" >안전 살피기</div>
+                    <div class="card-body d-flex justify-content-around">
+                      <!--<div class="card-title">입장한 후에 QR코드를 찍어주세요.</div> -->
+                      <div class="card-title"></div>
+                      <p class="card-text"></p> <a href="#" class="btn btn-success">안전 확인</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">...</div>
+                    <div class="card-body d-flex justify-content-around">
+                      <div class="card-title">...</div>
+                      <p class="card-text"></p> <a href="#" class="btn btn-success">안내화면</a>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordian-item">
+            <h2 class="accordion-header" id="period3">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse3">
+                &#x1F4C8; 작업하기 약 1시간 30분 소요
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="period3" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="padding:0px;">
+                <div class="container" style="padding:0px;">
+                  <div class="card">
+                    <div class="card-header" >안전 살피기</div>
+                    <div class="card-body d-flex justify-content-around">
+                      <!--<div class="card-title">입장한 후에 QR코드를 찍어주세요.</div> -->
+                      <div class="card-title"></div>
+                      <p class="card-text"></p> <a href="#" class="btn btn-success">안전 확인</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">...</div>
+                    <div class="card-body d-flex justify-content-around">
+                      <div class="card-title">...</div>
+                      <p class="card-text"></p> <a href="#" class="btn btn-success">안내화면</a>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordian-item">
+            <h2 class="accordion-header" id="period4">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse3">
+                &#x1F4C8; 청소하기 10분 ~15분 소요
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="period4" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="padding:0px;">
+                <div class="container" style="padding:0px;">
+                  <div class="card">
+                    <div class="card-header" >안전 살피기</div>
+                    <div class="card-body d-flex justify-content-around">
+                      <!--<div class="card-title">입장한 후에 QR코드를 찍어주세요.</div> -->
+                      <div class="card-title"></div>
+                      <p class="card-text"></p> <a href="#" class="btn btn-success">안전 확인</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">...</div>
+                    <div class="card-body d-flex justify-content-around">
+                      <div class="card-title">...</div>
+                      <p class="card-text"></p> <a href="#" class="btn btn-success">안내화면</a>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordian-item">
+            <h2 class="accordion-header" id="period5">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse3">
+                &#x1F4C8; 종료시간 10분소요
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="period5" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="padding:0px;">
+                <div class="container" style="padding:0px;">
+                  <div class="card">
+                    <div class="card-header" >안전 살피기</div>
+                    <div class="card-body d-flex justify-content-around">
+                      <!--<div class="card-title">입장한 후에 QR코드를 찍어주세요.</div> -->
+                      <div class="card-title"></div>
+                      <p class="card-text"></p> <a href="#" class="btn btn-success">안전 확인</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">...</div>
+                    <div class="card-body d-flex justify-content-around">
+                      <div class="card-title">...</div>
+                      <p class="card-text"></p> <a href="#" class="btn btn-success">안내화면</a>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header">손 씻기</div>
-          <div class="card-body">
-            <div class="card-title"></div>
-            <p class="card-text">손을 씻은 후, 사진을 찍어주세요.</p>
-            <a href="#" class="btn btn-success">사진 찍기</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header">야채손질</div>
-          <div class="card-body">
-            <div class="card-title"></div>
-            <p class="card-text">야채 손질하는 곳으로 이동해주세요.</p>
-            <a href="#" class="btn btn-success">이동하기</a>
-          </div>
-        </div>
-        <ul>
-        <li class="list-group-item border-none">
-            입장하기 -> 손씻기 -> 야채손질, 야채세척, 배추절이기, 양념만들기, 양념바르기. 이렇게 작업합니다.
-          </li>
-          <li class="list-group-item border-none">
-            입장 후에 QR코드를 찍어주세요.
-          </li>
+
+
+        <ul >
+
           <li class="list-group-item border-none">
             작업시간 표시: 2시간 (2H)
             <div class="progress-stacked" style="height:40px;">
