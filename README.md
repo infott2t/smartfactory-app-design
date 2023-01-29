@@ -14,6 +14,10 @@ Let's developing~. Smart Factory. More convinience work~. How about this. Thank 
  
 기부하실 분은... 여기에 해주세요. Donation, <a href="https://www.paypal.com/paypalme/jcoop45">페이팔 기부</a>
 
+실제 서비스 제공을 하기 위해서는 이런식으로 해야한다고 생각합니다. 참조해보세요. 
+관련 글, https://github.com/infott2t
+
+
 좋은 하루되세요. 
 
 또, 교회. 다녀보세요. 기독교. 전화도 해보세요. 사회에서 쉴 곳. 하고 싶은 말이네요.
